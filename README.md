@@ -1,1 +1,1 @@
-# goit-react-hw-01-components
+wrapper SocialProfile Profile Stats Statistics
