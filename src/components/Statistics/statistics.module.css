@@ -1,0 +1,34 @@
+.statistics {
+  background-color: #f5fffa;
+  margin: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.title {
+  color: #223c5090;
+}
+
+.statlist {
+  display: flex;
+  width: 400px;
+  height: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 4);
+  /* background-color: grey; */
+}
+
+.label,
+.percentage {
+  color: #000a;
+}
