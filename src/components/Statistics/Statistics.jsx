@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './statistics.module.css';
 
-import rndColors from '../../utils/rndColors';
+// import rndColors from '../../utils/rndColors';
 
 const Statistics = ({ title, stats }) => (
   <section className={css.statistics}>
