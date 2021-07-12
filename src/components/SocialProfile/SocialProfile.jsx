@@ -1,7 +1,16 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import css from './socialProfile.module.css';
 
-const SocialProfile = ({ name, avatar, tag, location, followers, views, likes }) => {
+const SocialProfile = ({
+  name,
+  avatar,
+  tag,
+  location,
+  followers,
+  views,
+  likes,
+}) => {
   return (
     <div className={css.profile}>
       <div className={css.description}>
@@ -27,6 +36,16 @@ const SocialProfile = ({ name, avatar, tag, location, followers, views, likes })
       </ul>
     </div>
   );
+};
+
+SocialProfile.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  followers: PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
 };
 
 export default SocialProfile;
